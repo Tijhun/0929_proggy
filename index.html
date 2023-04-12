@@ -1,22 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stilus.css">
-    <title>Medium Article</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Kávézó Főoldal</title>
+    <link rel="icon" href="Képek/catlogo.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Please do learn to code</h1>
-    <figure>
-        <img src="https://orange.codeberryschool.com/content/images/project-assets/medium-article-cover.jpg" alt="coders">
-        <figcaption>Learning to code at a Free Code Camp Toronto coffee-and-code.</figcaption>
-    </figure>
-    <article>
-        <p>This morning I woke up to dozens messages from students who had read an article titled “Please Don’t Learn to Code.”</p>
-        <p>At first, I assumed <a href="http://blog.codinghorror.com/please-dont-learn-to-code/">Jeff Atwood’s 2012 article</a>> had spontaneously reappeared on Reddit. But no — this was a <a href="http://techcrunch.com/2016/05/10/please-dont-learn-to-code">brand new Tech Crunch article</a>> of the same name, which echoed Atwood’s assertion that encouraging everyone to learn programming is like encouraging everyone to learn plumbing.</p>
-        <p>Here’s why programming — unlike plumbing — is an Here's why programming – unlike plumbing – is an important skill that everyone should learn: <b>programming is how humans talk to machines</b>>.</p>
-    </article>
+    <header class="header">
+        <nav>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="HTML/index.html" class="active">Főoldal</a></li>
+                    <li><a href="HTML/Hazirend.html">Házirend</a></li>
+                    <li><a href="HTML/Cicak.html">Cicák</a></li>
+                    <li><a href="HTML/Foglalas.html">Foglalás</a></li>
+                    <li><a href="HTML/Kapcsolatok.html">Kapcsolatok</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <h1>
+            Cica Kávézó
+        </h1>
+        <p>A kávézó jelenleg - cicalakója van, köztük fajtatiszta cicák és menhelyről befogadott, mentett cicák is. Itt egyedülálló élményben lehet részed, hiszen élő cicák társaságában fogyaszthatod el kedvenc kávédat, készülhetsz a vizsgádra, de egy jó randihoz is kíváló helyszín választás.</p>
+        <p>A kávézónkban a cicák érdekében a házirend betartása kötelező, mely szerint nem szabad a cicákat etetni, vakuval fotózni, pihenés közben zavarni és emelgetni. Persze szabad őket simogatni és játszani velük</p>
+        <img src="Képek/cac.jpg" alt="Cats and Coffee" title="Cicák és kávé" id="cac">
+        <table>
+            <caption>Kínálatunk</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Ital</th>
+                    <th>Ár</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="Képek/tej.jpg" alt="Tej" class="tab"></td>
+                    <td>Tej</td>
+                    <td class="b">80 Ft</td>
+                </tr>
+                <tr>
+                    <td><img src="Képek/tea.jpg" alt="Fekete Tea" title="Fekete Tea" class="tab"></td>
+                    <td>Teák</td>
+                    <td class="b">140 Ft</td>
+                </tr>
+                <tr>
+                    <td><img src="Képek/kavek.jpg" alt="Kávék" class="tab"></td>
+                    <td>Kávék</td>
+                    <td class="b">200-320 Ft</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Asztalfoglalás</h3>
+        <p>Mostantól online tudtok előre asztalt foglalni (<a href="HTML/Foglalas.html">itt</a>). Az aznapi foglalásokat csak telefonon tudjátok megtenni.<br>
+        Ha már nem tudsz foglalni telefonon sem, akkor gyere el hozzánk, maximum várakoznod kell az ajtóban a bejutásra. Várunk szeretettel!</p>
+            
+        <p class="b">Várunk szeretettel!</p>
+    </div>
 </body>
 </html>
